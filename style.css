@@ -65,8 +65,48 @@ img {
 
 .btn-primary {
   background-color: var(--strong-cyan);
+  box-shadow: 0 3px hsl(171, 62%, 41%);
 }
 
 .btn-secondary {
   background-color: var(--light-blue);
+  box-shadow: 0 3px hsl(233, 77%, 60%);
+}
+
+footer {
+  background-color: hsl(223, 15%, 91%);
+}
+
+footer .container {
+  margin-bottom: 0;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer .links {
+  flex: 3;
+}
+
+footer .links li {
+  margin-right: 40px;
+  padding: 10px;
+}
+
+footer img {
+  width: 60px;
+}
+
+footer ul a {
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
+}
+
+footer .social-links a {
+  margin-right: 10px;
+  font-size: 23px;
 }
