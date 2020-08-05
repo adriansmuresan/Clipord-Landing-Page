@@ -22,7 +22,7 @@ header {
   background-image: url(./images/bg-header-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  padding: 100px 0 40px;
 }
 
 img {
@@ -32,7 +32,7 @@ img {
 .container {
   max-width: 100%;
   width: 1200px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .container-small {
@@ -41,4 +41,32 @@ img {
 
 .flex {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex > * {
+  flex: 1;
+  padding: 10px;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 15px 35px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 600;
+  margin: 15px 5px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background-color: var(--strong-cyan);
+}
+
+.btn-secondary {
+  background-color: var(--light-blue);
 }
