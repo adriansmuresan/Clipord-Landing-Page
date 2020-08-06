@@ -33,6 +33,10 @@ section {
   padding: 40px 0;
 }
 
+section .img-devices {
+  transform: scale(1.1);
+}
+
 section div.container-text {
   text-align: left;
   padding: 40px;
@@ -46,7 +50,7 @@ p {
 .container {
   max-width: 100%;
   width: 1200px;
-  margin: 30px auto;
+  margin: 50px auto;
   padding: 0 20px;
 }
 
@@ -54,8 +58,12 @@ p {
   width: 600px;
 }
 
+.container-small.last {
+  padding-bottom: 40px;
+}
+
 .container-small p {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .flex {
